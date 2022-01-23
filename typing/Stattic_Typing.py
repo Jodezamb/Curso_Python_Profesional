@@ -20,3 +20,7 @@ countries: List[Dict[str,int]]=[
 
 # ventajas
 # nos aportar claridad al codigo, nos va a devolver los errores antes de que el programa se ejecuta  sin la necesidad  de que sea un tipado estatico. 
+
+print(positivies)
+print(users)
+print(countries)
