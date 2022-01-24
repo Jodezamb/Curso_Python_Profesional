@@ -5,9 +5,9 @@ from importlib_metadata import re
 
 
 def mayasculas(func):
-    def wrapper(texto):
-        return func(texto).upper()
-    return wrapper
+    def wrapper(texto): # funcuon envoltutas 
+        return func(texto).upper()  # modifica la funcion que ingresa
+    return wrapper  #retorna la funcion envoltura
 
 
 @mayasculas
