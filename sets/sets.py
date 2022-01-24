@@ -26,3 +26,24 @@ print(differenceSet)
 #symetric_Dif_Set
 symetric_Dif_Set=set1^set2
 print(symetric_Dif_Set)
+
+
+'''Crear una funcion que elimine los elemento repetidos por medio de for y set'''
+
+def eliminar(lista):
+    without_List=[]
+    for element in lista:
+        if element not in without_List:
+            without_List.append(element)
+    return without_List
+
+def eliminar_with_set(lista):
+    return list(set(lista))
+def run():
+    random_list=[1,2,3,1,1]
+    print(eliminar(random_list))
+    print(eliminar_with_set(random_list))
+
+
+if __name__ == '__main__':
+    run()
