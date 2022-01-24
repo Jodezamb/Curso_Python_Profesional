@@ -9,7 +9,7 @@ def execution_time(func):
         func()
         final_time=datetime.now()
         time_elapsed=final_time-initial_time
-        print("Pasaron ", time_elapsed.total_seconds()," segundos")
+        print("Pasaron "+str(time_elapsed.total_seconds())+" segundos")
     return wrapper
 
 @execution_time  # decorador 
