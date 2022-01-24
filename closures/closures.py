@@ -21,6 +21,9 @@ def run():
     repeta_5=make_repeater_of(5)
     print (repeta_5('Bienvenidos'))
 
+    repeta_10=make_repeater_of(10)
+    print (repeta_10(10))
+
 
 if __name__ == '__main__':
     run()
