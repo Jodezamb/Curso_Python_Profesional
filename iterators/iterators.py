@@ -33,6 +33,7 @@ if __name__ == '__main__':
     ''' Para recorrer un iterador con un ciclo for sugar sintax '''
     for element in fibonacci:
         print(element)
+        time.sleep(1)
 
 
 
