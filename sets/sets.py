@@ -39,6 +39,8 @@ def eliminar(lista):
 
 def eliminar_with_set(lista):
     return list(set(lista))
+
+    
 def run():
     random_list=[1,2,3,1,1]
     print(eliminar(random_list))
